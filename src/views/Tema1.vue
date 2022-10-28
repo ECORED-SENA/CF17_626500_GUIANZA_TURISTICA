@@ -26,7 +26,7 @@
                 | Instruir.
               li 
                 i.fab.fa-telegram
-                | Asistir.       
+                | Asistir*.       
     p.mt-4 *Esta última se relaciona con el plan de viaje o servicios convenidos, atención a las eventualidades e imprevistos que se deriven de estos y en general a atender en pleno al cliente, como se puede observar en la siguiente figura.
     .row.justify-content-center.mb-5
       .col-lg-6.mb-5
@@ -44,15 +44,16 @@
       )
       .bloque-texto-g__texto.p-5
         p.mb-0 Todos los empleados, por disposición de la Organización Internacional del Trabajo (2021), deben usar un Equipo de Protección Personal o EPP que tiene por objetivo la protección de las diferentes partes del cuerpo evitando factores de riesgo que lo puedan lesionar, evitar enfermedades o efectos adversos para la salud. Es importante recordar que estos no evitan accidentes y ayudan a que la lesión sea menos grave. 
+    p.mt-4 El suministro y uso está a cargo de los empleadores, pero en caso que el guía preste sus servicios de manera independiente, dentro de los costos de su servicio debe incluir la partida necesaria para garantizar que él como guía, cuente con dichos elementos según el contexto y actividades que incluyan el servicio. Asimismo, debe informar al contratante y a los usuarios, en las recomendaciones previas al servicio guiado, los EPP que requieran los usuarios durante el servicio y asegurarse que se proporcionen. 
     .row.bg2.p-2.mt-5
       .col-lg-4.mt-5
         img(src='@/assets/curso/tema1/img4.svg', alt='Texto que describa la imagen')
       .col-lg-7.mb-5.mt-5
         p Por ejemplo, el casco el ingreso de la mina o el chaleco al abordar una lancha, el guía no está en la obligación de proporcionarlos, pero en su función de asistencia debe ejercer una vigilancia que se proporcionen, verificar que se da la respectiva explicación de uso y que efectivamente el turista los use.
         p Para que el guía pueda determinar quién debe usar los EPP durante el servicio, debe preguntarse: 
-        p.text-center.mb-0 ¿Qué personas están expuestas?
-        p.text-center.mb-0 ¿Cuánto tiempo dura la exposición?
-        p.text-center.mb-0 ¿En qué medida están expuestas?
+        p.text-center.mb-0 <strong>¿Qué personas están expuestas?</strong>
+        p.text-center.mb-0 <strong>¿Cuánto tiempo dura la exposición?</strong>
+        p.text-center.mb-0 <strong>¿En qué medida están expuestas?</strong>
     p.mt-4 De esta manera, puede asistir al usuario en el uso de los elementos, además debe tener en cuenta al momento de exigir los EPP lo siguiente:
     .row.mt-3
       .col-lg-4
@@ -234,7 +235,7 @@
                   | Solo haga descender a todos los pasajeros en caso de que todos se alojen en el mismo lugar. De lo contrario, a la llegada se debe bajar solo el guía confirmar datos y luego ayudar a descender a los pasajeros que correspondan, el resto del grupo le esperará en el vehículo.
                 li 
                   i.fab.fa-telegram
-                  | Mientras, los pasajeros descienden y sacan sus equipajes en el caso de que no haya botones. Luego el guía se presentará en recepción y dará la información del grupo para que se haga el alistamiento para un check-in eficiente.
+                  | Mientras, los pasajeros descienden y sacan sus equipajes en el caso de que no haya botones. Luego el guía se presentará en recepción y dará la información del grupo para que se haga el alistamiento para un <i>check-in</i> eficiente.
           .col-lg-6
             img(src='@/assets/curso/tema1/img18.png', alt='Texto que describa la imagen')
     p.mt-3 En la asistencia del equipaje, el guía y el encargado deben coordinar el transporte, recogida y entrega del equipaje.
@@ -242,7 +243,7 @@
       .row.justify-content-center(titulo="Estrategias para la recepción y organización de maletas")
         .col-md-11.mb-4.mb-md-0
           p Marcar las maletas con el número de habitación que le corresponde. Confirmar que cada maleta tenga los datos necesarios y contrastarlos con el rooming list en la que aparecen los números de las habitaciones asignadas por nombres, de esa forma el botones podrá subir el equipaje sin equivocarse de habitación.
-          p Mientras se realiza el check-in, el grupo de usuarios debe mantenerse alejado del mostrador de recepción para que el guía pueda tomar decisiones con mayor libertad. 
+          p Mientras se realiza el <i>check-in</i>, el grupo de usuarios debe mantenerse alejado del mostrador de recepción para que el guía pueda tomar decisiones con mayor libertad. 
           ul.lista-ul--color
             li 
               i.fab.fa-telegram
@@ -287,7 +288,7 @@
               i.fab.fa-telegram
               | Identificar inmediatamente si falta una maleta.
 
-          p En el check-out o salida del hotel, y ojalá previamente, se debe verificar que todos los clientes han devuelto la llave y pagado todos los posibles gastos extras que hayan efectuado durante la estancia (como minibar, cafetería, lencería, entre otros). 
+          p En el <i>check-out</i> o salida del hotel, y ojalá previamente, se debe verificar que todos los clientes han devuelto la llave y pagado todos los posibles gastos extras que hayan efectuado durante la estancia (como minibar, cafetería, lencería, entre otros). 
           p Además de asegurarse que los servicios conexos sean eficientes, el guía también debe procurar directamente el bienestar del usuario respecto a sus condiciones de salud, determinar a dónde llevar al cliente en caso de emergencia y asegurarse qué cubre el seguro de viajes.
           p Con estas recomendaciones puede establecer un servicio de calidad frente a todos los usuarios de guianza turística.
     separador

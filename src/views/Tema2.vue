@@ -34,7 +34,7 @@
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0.text-center.mb-4  Negligencia por omisión
+              h4.mb-0.text-center.mb-4.text-small  Negligencia por omisión
             p.text-center  no prestar el auxilio o la asistencia.
       .col-lg-3.mb-3
         .tarjetas-up
@@ -129,7 +129,7 @@
     p Ante situaciones como las descritas anteriormente, se presentan algunas recomendaciones:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/0bUfRiDlkGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/LWEvm5VfdVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Manejo del pánico colectivo
