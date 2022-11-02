@@ -29,12 +29,12 @@
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/tema2/img3.png' alt='AvatarTop' style='width:300px')
-          .tarjetas-up_card.bg--2-claro.p-4
+          .tarjetas-up_card.bg--2-claro.p-3
             .title.d-flex.align-items-center.mb-4
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0.text-center.mb-4.text-small  Negligencia por omisión
+              h4.mb-0.text-center.mb-4  Negligencia por omisión
             p.text-center  no prestar el auxilio o la asistencia.
       .col-lg-3.mb-3
         .tarjetas-up
