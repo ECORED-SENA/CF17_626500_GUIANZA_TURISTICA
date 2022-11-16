@@ -1,16 +1,16 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
       h1 Asistencia como función de guía
-    .row 
-      .col-lg-6
+    .row.bg6
+      .col-lg-6(data-aos="flip-up")
         img(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen')
       .col-lg-6
-        p Existen dos conceptos fundamentales para entender la asistencia como función de guía, estos conceptos son asistencia y asistir. Según la Real Academia Española, la asistencia, se define como “la acción de prestar socorro, favor o ayuda”, y asistir como “servir o atender a alguien, especialmente de un modo eventual o desempeñando tareas específicas”, siendo esta, una de las funciones del guía de turismo en el ejercicio del guionaje turístico. 
+        p.mt-2 Existen dos conceptos fundamentales para entender la asistencia como función de guía, estos conceptos son asistencia y asistir. Según la Real Academia Española, la asistencia, se define como “la acción de prestar socorro, favor o ayuda”, y asistir como “servir o atender a alguien, especialmente de un modo eventual o desempeñando tareas específicas”, siendo esta, una de las funciones del guía de turismo en el ejercicio del guionaje turístico. 
         .cajon.color-primario.p-4.mb-4
           p Por normativa se han fijado en cuatro las funciones del guía por el ente rector del sector turismo, según el Ministerio de Comercio, Industria y Turismo: 
           .col-sm.mb-5.mb-sm-0
@@ -29,7 +29,7 @@
                 | Asistir*.       
     p.mt-4 *Esta última se relaciona con el plan de viaje o servicios convenidos, atención a las eventualidades e imprevistos que se deriven de estos y en general a atender en pleno al cliente, como se puede observar en la siguiente figura.
     .row.justify-content-center.mb-5
-      .col-lg-6.mb-5
+      .col-lg-6.mb-5(data-aos="flip-down")
         .titulo-sexto.color-acento-contenido
           h5 Figura 1
           span Función de asistencia      
@@ -38,7 +38,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Elementos de protección personal del guía y los usuarios
     p Para que el guía pueda prestar los servicios de asistencia es vital la preparación individual, además de los conocimientos e inspección del sitio. También debe preparar elementos de protección personal según el tipo de servicio que vaya a prestar, que permita garantizar seguridad a sí mismo y, por lo tanto, brindar la asistencia al usuario. 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="flip-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img3.png')})`}"
       )
@@ -46,7 +46,7 @@
         p.mb-0 Todos los empleados, por disposición de la Organización Internacional del Trabajo (2021), deben usar un Equipo de Protección Personal o EPP que tiene por objetivo la protección de las diferentes partes del cuerpo evitando factores de riesgo que lo puedan lesionar, evitar enfermedades o efectos adversos para la salud. Es importante recordar que estos no evitan accidentes y ayudan a que la lesión sea menos grave. 
     p.mt-4 El suministro y uso está a cargo de los empleadores, pero en caso que el guía preste sus servicios de manera independiente, dentro de los costos de su servicio debe incluir la partida necesaria para garantizar que él como guía, cuente con dichos elementos según el contexto y actividades que incluyan el servicio. Asimismo, debe informar al contratante y a los usuarios, en las recomendaciones previas al servicio guiado, los EPP que requieran los usuarios durante el servicio y asegurarse que se proporcionen. 
     .row.bg2.p-2.mt-5
-      .col-lg-4.mt-5
+      .col-lg-4.mt-5(data-aos="flip-right")
         img(src='@/assets/curso/tema1/img4.svg', alt='Texto que describa la imagen')
       .col-lg-7.mb-5.mt-5
         p Por ejemplo, el casco el ingreso de la mina o el chaleco al abordar una lancha, el guía no está en la obligación de proporcionarlos, pero en su función de asistencia debe ejercer una vigilancia que se proporcionen, verificar que se da la respectiva explicación de uso y que efectivamente el turista los use.
@@ -58,94 +58,94 @@
     .row.mt-3
       .col-lg-4
         img(src='@/assets/curso/tema1/img5.png', alt='Texto que describa la imagen')
-      .col-lg-8
+      .col-lg-8.mt-2
         SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
           .tarjeta.color-acento-botones.p-5
             .row.justify-content-center.mb-3
-            p.mb-5 <strong>1.</strong> Los productos para proteger contra los riesgos deben corresponder a las normas técnicas establecidas. Los proveedores pueden asesorar al respecto.
+            p <strong>1.</strong> Los productos para proteger contra los riesgos deben corresponder a las normas técnicas establecidas. Los proveedores pueden asesorar al respecto.
             .row.mb-5
           .tarjeta.color-acento-botones.p-5
             .row.justify-content-center.mb-3
-            p.mb-5 <strong>2.</strong>  Los equipos se deben adaptar bien al usuario, respecto a la talla, forma y peso del elemento de protección.
+            p <strong>2.</strong>  Los equipos se deben adaptar bien al usuario, respecto a la talla, forma y peso del elemento de protección.
             .row.mb-5
             .row.mb-5
           .tarjeta.color-acento-botones.p-5
             .row.justify-content-center.mb-3
-            p.mb-5 <strong>3.</strong>  No permitir que un usuario realice una actividad sin dichos elementos, aunque se supone que solo va a participar unos minutos y no en la actividad completa. 
+            p <strong>3.</strong>  No permitir que un usuario realice una actividad sin dichos elementos, aunque se supone que solo va a participar unos minutos y no en la actividad completa. 
             .row.mb-5
           .tarjeta.color-acento-botones.p-5
             .row.justify-content-center.mb-3
-            p.mb-5 <strong>4.</strong>   En caso de dudas sobre el uso del EPP buscar la opinión de un asesor especializado en la actividad (Organización Internacional del Trabajo, 2021).
+            p <strong>4.</strong>   En caso de dudas sobre el uso del EPP buscar la opinión de un asesor especializado en la actividad (Organización Internacional del Trabajo, 2021).
             .row.mb-5  
             .row.mb-4     
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
-            p.mb-5 <strong>5.</strong>  Asegurarse que puede llevarse más de un elemento al mismo tiempo (por ejemplo, las gafas de seguridad pueden alterar el sellamiento del oxígeno, en una actividad de montaña). En ese caso es necesario entrenar al usuario en el uso del mismo, explicando por qué son necesarios, cuándo utilizarlos y qué limitaciones tienen.
+            p <strong>5.</strong>  Asegurarse que puede llevarse más de un elemento al mismo tiempo (por ejemplo, las gafas de seguridad pueden alterar el sellamiento del oxígeno, en una actividad de montaña). En ese caso es necesario entrenar al usuario en el uso del mismo, explicando por qué son necesarios, cuándo utilizarlos y qué limitaciones tienen.
     p.mt-2 Los tipos de EPP en la guianza están identificados de acuerdo con la actividad y varían en cada caso, sin embargo, se mencionan a continuación algunas generalidades según la parte del cuerpo a proteger:
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-acento-contenido.mb-5(data-aos="flip-right")
       .py-4.py-md-5(titulo="Cabeza y cuello" :icono="require('@/assets/curso/tema1/i1.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-md-0.col-11
             h4 Cabeza y cuello
             p Los peligros relacionados son impacto de objetos que caen o salen proyectados, riesgo de sufrir un golpe en la cabeza, de que el pelo se enrede en un equipo o elemento, de recibir gotas o salpicaduras de productos químicos, el clima o la temperatura.
             p La primera medida es un casco de seguridad con un diseño adecuado a los golpes y fuertes caídas que se puedan dar durante la actividad, por ejemplo, se recomienda en canotaje, la escalada, rapel y ciclismo.  
             p También una gorra o gorro dependiendo del clima es ideal para mantener la temperatura. El guía para su cuello debe usar un pañuelo o cinta tubular de tejido elástico, que lo proteja del sol y mantenga la temperatura cercana a sus cuerdas vocales equilibrada para garantizar su óptimo desempeño (SENA, 2011).
-          .col-md-6
+          .col-lg-6.col-9
             figure
               img(src='@/assets/curso/tema1/img6.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Ojos" :icono="require('@/assets/curso/tema1/i2.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-md-0.col-11
             h4 Ojos
             p Los peligros constantes son salpicaduras, polvo, proyecciones, gases y vapores, y radiaciones procedentes de productos o el ambiente donde se lleva a cabo la actividad turística.
             p Para este caso, las gafas son el medio de protección ideal y se eligen de acuerdo con el tipo de labor a realizar. Si el guía en su día a día trabaja en espacios abiertos debe usar gafas para proteger su vista de protección ultravioleta.  Por el contrario, el servicio guiado incluye la visita a espacios industriales o artesanales en los que exista exposiciones a químicos o sustancias nocivas deberá averiguar cuál es la protección adecuada.
             p La misma exposición a peligros puede afectar el rostro, en ese caso el EPP será una careta y para cubrirse de los rayos ultravioleta y el protector solar.
-          .col-md-6
+          .col-lg-6.col-9
             figure
               img(src='@/assets/curso/tema1/img7.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Oídos" :icono="require('@/assets/curso/tema1/i3.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-md-0.col-11
             h4 Oídos
             p El ruido es el peligro más evidente. Para determinar la afectación se debe revisar la combinación del nivel del sonido y de la duración de la exposición; los sonidos muy altos son un peligro, aunque su duración sea corta.
             p Los tapones para los oídos, orejeras y auriculares semi insertos, pueden disminuir hasta el 33% de los decibeles. 
             p En recorridos en aeronaves pequeñas las compañías ofrecen tapones como EPP, lo mismo sucede en los atractivos como minas o visitas a lugares industrializados para disminuir la exposición. (SENA, 2011).
-          .col-md-6
+          .col-lg-6.col-9
             figure
               img(src='@/assets/curso/tema1/img8.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Pulmones" :icono="require('@/assets/curso/tema1/i4.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-md-0.col-11
             h4 Pulmones
             p En este caso se busca minimizar la exposición directa a polvos, gases y vapores o por el contrario, la falta de oxígeno. 
             p Para ese tipo de caso lo aconsejable es el uso de la mascarilla, cuando en el ambiente hay partículas como polvo, cemento, algodón y otras derivadas. 
             p En caso de que el usuario en su cotidianidad requiera oxígeno o algún tipo de respirador, es necesario verificar que las condiciones del lugar a visitar no empeoren su condición.
-          .col-md-6
+          .col-lg-6.col-9
             figure
               img(src='@/assets/curso/tema1/img9.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Manos y brazos" :icono="require('@/assets/curso/tema1/i5.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-md-0.col-11
             h4 Manos y brazos
 
             p Esta parte del cuerpo está expuesta a abrasiones, temperaturas extremas, cortes y pinchazos, impactos, productos químicos, descargas eléctricas, radiaciones, agentes biológicos e inmersión prolongada en agua.
 
             p Para determinadas actividades se requiere el uso de guantes por parte de los usuarios, por ejemplo, cuando requieren el uso prolongado de cuerdas. Para actividades de naturaleza, se recomienda el uso de buzos de manga larga o fundas que cubran los brazos.
-          .col-md-6
+          .col-lg-6.col-9
             figure
               img(src='@/assets/curso/tema1/img10.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Pies y piernas" :icono="require('@/assets/curso/tema1/i6.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-md-0.col-11
             h4 Pies y piernas
             p Los peligros relacionados con estas zonas se relacionan con la humedad, el calor y el frío, las descargas electroestáticas, los resbalones, los cortes y los pinchazos, la caída de objetos, las cargas pesadas, la proyección de residuos de metales, la salpicadura de productos químicos y los vehículos.
             p Para el guía y los usuarios es vital un calzado adecuado para la actividad. Dentro de las especificaciones generales un calzado cerrado, que cubra hasta el tobillo y de suela labrada disminuye la exposición, permite la adaptabilidad al suelo garantizando la estabilidad y seguridad de los turistas. Será el guía de acuerdo con la planeación de la actividad el que determinará si el uso de otro tipo de calzado representa un riesgo aceptado (Organización Internacional del Trabajo, 2021).
-          .col-md-6
+          .col-lg-6.col-9
             figure
               img(src='@/assets/curso/tema1/img11.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Cuerpo" :icono="require('@/assets/curso/tema1/i7.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-md-0.col-11
             h4 Cuerpo
             p Las medidas deben estar enfocadas a disminuir la exposición a peligros como altas o bajas temperaturas, proyección de partículas de metal o salpicaduras de productos químicos y desgaste o enganche de las prendas de vestir.
 
@@ -162,7 +162,7 @@
                   i.fab.fa-telegram
                   p.mb-0 <strong>Tercera capa:</strong>   protege de la humedad, viento y lluvia. Ropa impermeable,  chaquetas livianas, resistentes al agua, transpirables, con capucha y con varios bolsillos para tener a mano objetos de uso habitual. 
                     
-          .col-md-6
+          .col-lg-6.col-9
             figure
               img(src='@/assets/curso/tema1/img12.png', alt='Texto que describa la imagen')
     .cajon.color-primario.p-4.mb-4
@@ -176,49 +176,49 @@
       .col-lg-2
         img(src='@/assets/curso/tema1/img13.svg', alt='Texto que describa la imagen')
       .col-lg-8
-        p Cabo (2004) expone que la labor del guía se intensifica cuando el usuario contrata productos turísticos que tiene incluido el servicio de alojamiento, restaurante o transporte. Es ideal que el guía reconozca la delimitación de sus acciones, técnicas de control y asistencia del grupo, y las posibles soluciones para el control de cualquier problema que surja en el servicio y con ello minimizar los imprevistos.
+        p.mt-2 Cabo (2004) expone que la labor del guía se intensifica cuando el usuario contrata productos turísticos que tiene incluido el servicio de alojamiento, restaurante o transporte. Es ideal que el guía reconozca la delimitación de sus acciones, técnicas de control y asistencia del grupo, y las posibles soluciones para el control de cualquier problema que surja en el servicio y con ello minimizar los imprevistos.
         p Para una correcta asistencia a los usuarios, es importante mantener una estrecha relación con los proveedores. Tenga en cuenta las recomendaciones que se dan para la logística.
-    .row.mt-5
-      .col-lg-5
+    .row.mt-5.align-items-center
+      .col-lg-6
         .row
-          .col-lg-1
-            img(src='@/assets/curso/tema1/f1.svg', alt='Texto que describa la imagen')
-          .col-lg-11.bi1
+          .col-lg-1.col-1
+            img.widt1(src='@/assets/curso/tema1/f1.svg', alt='Texto que describa la imagen')
+          .col-lg-11.bi1.col-11
             h4 Asistencia a usuarios según servicios contratados
     p.mt-3 La logística para una correcta asistencia y guía a los usuarios se verá ajustada según los servicios contratados, por eso ten en cuenta las siguientes recomendaciones:
     .row.justify-content-center.mt-4 
       .col-lg-10
-        PasosA.color-primario.mb-5(tipo="n")
-          .row
-            .col-md-7.mb-4.mb-md-0
+        PasosA.color-primario.mb-5(tipo="n")(data-aos="flip-right")
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-md-0
               p Cuando el servicio de transporte es incluido, el guía debe encargarse de iniciar una relación cercana con el conductor asignado para establecer su conocimiento de la ruta, su experiencia y experticia en relación con el transporte a realizar, haciéndolo sentir parte del servicio y del grupo, así se garantiza un mejor servicio. 
 
-            .col-md-5
+            .col-lg-5
               figure
                 img(src='@/assets/curso/tema1/img14.png', alt='Texto que describa la imagen')
 
-          .row
-            .col-md-5
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema1/img15.png', alt='Texto que describa la imagen')
 
-            .col-md-7.mb-4.mb-md-0
-              p Luego de este acercamiento es necesario revisar el vehículo e información como permisos, seguros, estado de limpieza, funcionamiento de micrófono y sistema audiovisual, aire acondicionado, etc. En el caso de encontrar algún fallo o inconveniente, notificar al contratante del servicio o proveedor, todo esto sin la presencia de los usuarios.
+            .col-lg-7.mb-4.mb-md-0
+              p.mt-2 Luego de este acercamiento es necesario revisar el vehículo e información como permisos, seguros, estado de limpieza, funcionamiento de micrófono y sistema audiovisual, aire acondicionado, etc. En el caso de encontrar algún fallo o inconveniente, notificar al contratante del servicio o proveedor, todo esto sin la presencia de los usuarios.
 
-          .row
-            .col-md-7.mb-4.mb-md-0
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-md-0
               p Luego de aprobadas las condiciones del vehículo se puede, según el protocolo definido, abordar el vehículo dando la información respecto al itinerario, recomendaciones en el caso de que se deba reorganizar su equipaje según paradas o necesidad (por ejemplo la visita a un balneario) y, por supuesto, antes del abordaje verificar documentación y datos de los pasajeros para garantizar su pertenencia al grupo.
 
-            .col-md-5
+            .col-lg-5
               figure
                 img(src='@/assets/curso/tema1/img16.png', alt='Texto que describa la imagen')
-          .row
-            .col-md-5
+          .row.justify-content-center
+            .col-lg-7.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema1/img17.png', alt='Texto que describa la imagen')
 
-            .col-md-7.mb-4.mb-md-0
-              p Para el equipaje y según lo acordado con el contratante, es importante hacer la marcación de la maleta y entregar la etiqueta correspondiente, también advertir sobre la importancia de evitar poner dinero, joyas u objetos delicados y valiosos en la bodega y llevarlo preferiblemente en el equipaje de mano.
+            .col-lg-7.mb-4.mb-md-0
+              p.mt-2 Para el equipaje y según lo acordado con el contratante, es importante hacer la marcación de la maleta y entregar la etiqueta correspondiente, también advertir sobre la importancia de evitar poner dinero, joyas u objetos delicados y valiosos en la bodega y llevarlo preferiblemente en el equipaje de mano.
         p Tras estos pasos, todos los pasajeros deben estar acomodados en sus respectivos asientos. Verificar que todos los usuarios hubiesen llegado y, en caso contrario, activar el protocolo acordado con el contratante. Luego, proceder a la bienvenida y las presentaciones de guía, conductor y servicio, para confirmar que el usuario tiene claro qué incluye y qué no, y la duración, entre otros aspectos.
         p En el caso de que el servicio de alojamiento esté incluido, al igual que en el caso anterior, el guía asume tareas de veedor y prevé las situaciones no conformes.
         p Llamará con anterioridad a la llegada al establecimiento, confirmando la reserva del grupo, lo que minimiza problemas de última hora o posibles equivocaciones, validando número o distribución correcta de camas, alimentación (menús y horarios) y servicios incluidos y no incluidos. Se debe usar la oportunidad para validar la forma más idónea de llegar (direcciones o puntos de referencias) y de ingresar al establecimiento.
@@ -227,15 +227,15 @@
             .row.p-3.baz
               p En el momento de la llegada al alojamiento tener en cuenta:
               ul.lista-ul--color
-                li 
+                li.mb-0 
                   i.fab.fa-telegram
-                  | Detener el carro en el lugar más adecuado cercano a la entrada del hotel. En caso de parquear en doble vía, procure que la puerta del carro quede en el lado de la acera, de lo contrario, se advertirá a los pasajeros del posible peligro.
-                li 
+                  p.mb-0 Detener el carro en el lugar más adecuado cercano a la entrada del hotel. En caso de parquear en doble vía, procure que la puerta del carro quede en el lado de la acera, de lo contrario, se advertirá a los pasajeros del posible peligro.
+                li.mb-0 
                   i.fab.fa-telegram
-                  | Solo haga descender a todos los pasajeros en caso de que todos se alojen en el mismo lugar. De lo contrario, a la llegada se debe bajar solo el guía confirmar datos y luego ayudar a descender a los pasajeros que correspondan, el resto del grupo le esperará en el vehículo.
-                li 
+                  p.mb-0 Solo haga descender a todos los pasajeros en caso de que todos se alojen en el mismo lugar. De lo contrario, a la llegada se debe bajar solo el guía confirmar datos y luego ayudar a descender a los pasajeros que correspondan, el resto del grupo le esperará en el vehículo.
+                li.mb-0 
                   i.fab.fa-telegram
-                  | Mientras, los pasajeros descienden y sacan sus equipajes en el caso de que no haya botones. Luego el guía se presentará en recepción y dará la información del grupo para que se haga el alistamiento para un <i>check-in</i> eficiente.
+                  p.mb-0 Mientras, los pasajeros descienden y sacan sus equipajes en el caso de que no haya botones. Luego el guía se presentará en recepción y dará la información del grupo para que se haga el alistamiento para un <i>check-in</i> eficiente.
           .col-lg-6
             img(src='@/assets/curso/tema1/img18.png', alt='Texto que describa la imagen')
     p.mt-3 En la asistencia del equipaje, el guía y el encargado deben coordinar el transporte, recogida y entrega del equipaje.
@@ -271,6 +271,7 @@
             li.mb-0 
               i.fab.fa-telegram
               | ¿Dónde se encuentran bancos, casas de cambio y otros lugares de interés?
+
           p Adicionalmente, antes de entregar las llaves informar al grupo de todas las peculiaridades del alojamiento y las habitaciones, uso del minibar, llamadas de despertar, cajilla de seguridad y otros detalles como controles o aparatos automatizados.
       .row.justify-content-center(titulo="Estrategias para recogida de equipaje a la salida de alojamiento")
         .col-md-11.mb-4.mb-md-0
@@ -299,7 +300,7 @@
     .row 
       .col-lg-4
         img(src='@/assets/curso/tema1/img19.png', alt='Texto que describa la imagen')
-      .col-lg-8
+      .col-lg-8.mt-2
         TabsA.color-primario.mb-5
 
           .tarjeta.color-secundario--borde.p-4(titulo="Accidente")
@@ -311,7 +312,7 @@
           .tarjeta.color-secundario--borde.p-4(titulo="Emergencia")
             h4 Emergencia
             p Es toda aquella situación que, en opinión del paciente, familia o quien asuma la responsabilidad de llevar a un paciente al hospital, requiere una atención sanitaria inmediata. En este caso la vida puede estar en peligro o la función vital de algún órgano.
-    .row.bg1 
+    .row.bg1.align-items-center.mt-3
       .col-lg-4
         img(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
       .col-lg-8
@@ -319,60 +320,60 @@
         p Desde la guianza, una ficha médica, es un formato en el que se recolectan los datos sobre el estado de salud de los pasajeros y determinar si cumple con las condiciones para participar del servicio guiado o identificar de los pasajeros que tiene restricciones alimenticias o de ciertas actividades y, por lo tanto, requiere preparar unas actividades alternativas. En este caso es ideal que la ficha médica sea expedida por un profesional de la salud que describa de manera detallada las restricciones del usuario. 
     p.mt-4 La ficha se diligencia antes del empezar el servicio guiado, no en él, durante ni después evitando que, si se tiene un acontecimiento médico, la no apertura de esta se puede calificar legalmente como una negligencia por parte del guía o de la empresa, cuestión que es delicada por las penas pecuniarias y hasta cárcel dependiendo que tan grave sea el caso. 
     p Los principales datos que tiene el formato son:
-    .row 
-      .col-lg-3.wqa
+    .row.justify-content-center
+      .col-lg-3.wqa.mt-2
         .row.f1.p-3
           p.mt-5 Número de documento (sin puntos ni comas).
-      .col-lg-3.wqa
+      .col-lg-3.wqa.mt-2
         .row.f1.p-3
           p.mt-4 Nombre completo (como aparece en el documento de identificación).
-      .col-lg-3.wqa
+      .col-lg-3.wqa.mt-2
         .row.f1.p-3
           p.mt-5 Número de contacto personal.
-      .col-lg-3.wqa
+      .col-lg-3.wqa.mt-2
         .row.f1.p-3
           p.mt-4 Fecha de nacimiento (se requiere la edad para activar servicios de asistencia médica).
-      .col-lg-3.wqa
+      .col-lg-3.wqa.mt-2
         .row.f1.p-3
           p.mt-4 EPS que le atiende y lugar en el que lo atiende en caso de urgencia (EPS o Sisbén).
-    .row 
-      .col-lg-3.wqa
+    .row.justify-content-center
+      .col-lg-3.wqa.mt-2
         .row.f1.p-3
           p.mt-4 Tiene algún tipo de alergias: medicamentos, alimentos, condiciones ambientales.
-      .col-lg-3.wqa
+      .col-lg-3.wqa.mt-2
         .row.f1.p-3
           p.mt-4 ¿Está tomando medicamentos en este momento?
-      .col-lg-3.wqa
+      .col-lg-3.wqa.mt-2
         .row.f1.p-3
           p.mt-4 Nombre completo de un contacto de emergencias (parentesco, teléfono).
-      .col-lg-3.wqa
+      .col-lg-3.wqa.mt-2
         .row.f1.p-3
           p.mt-4 Tiene restricciones alimenticias o dieta especial.
-      .col-lg-3.wqa
+      .col-lg-3.wqa.mt-2
         .row.f1
-          p.mt-5 ¿Hay alguna información adicional que deban conocer el guía frente a su estado de salud? ncia (EPS o Sisbén).
+          p.mt-4.p-3 ¿Hay alguna información adicional que deban conocer el guía frente a su estado de salud? 
     span.colorn <strong>Nota:</strong> 
     |  a raíz de eventos como la Covid-19 y otro tipo de enfermedades como el dengue, se ha implementado como obligatorio en las actividades turísticas, preguntas como:
     .row.mt-4
       .col-lg-6
-        .row 
-          .col-lg-6
+        .row.justify-content-center
+          .col-lg-6.col-9
             .row.f2.p-3
               p.mt-4 ¿Ha presentado alguno de los siguientes síntomas en los últimos 15 días? 
-          .col-lg-6
-            .row.f2.p-3
+          .col-lg-6.col-6.col-9
+            .row.f2.p-4
               p.mt-4.mb-4 ¿Pertenece a algún grupo de riesgo?
-        .row 
-          .col-lg-6
+        .row.mt-2.justify-content-center
+          .col-lg-6.col-9
             .row.f2.p-3
               p.mt-4.mb-4 ¿Vive con personas menores de 14 años o mayores de 60 años? 
-          .col-lg-6
+          .col-lg-6.col-9.mt-2
             .row.f2.p-3
               p.mt-4.mb-4 ¿Ha recibido vacuna contra la Covid-19? 
         p.mt-4 Y ahora se solicita carné o esquema completo según sea el caso. 
         .cajon.color-primario.p-4.mb-4
           p Una buena práctica del guía de turismo es dejar constancia de la ficha médica de cada pasajero. Se recomienda una planilla o informe digital a través de un formulario al que pueda acceder el usuario del servicio desde cualquier dispositivo previamente para que pueda contestar las preguntas sin ninguna presión y, a su vez, el guía pueda tener los datos con antelación para realizar sus respectivos planes de acción y de contingencia.    
-      .col-lg-6
+      .col-lg-6(data-aos="flip-right")
         img(src='@/assets/curso/tema1/img21.png', alt='Texto que describa la imagen')
 
 </template>
@@ -398,6 +399,7 @@ export default {
 <style lang="sass">
 .tarjeta.color-acento-botones
   background-color: #FFE6A1
+
 .tarjeta.color-acento-botones *
   color: #12263F
 .slyder-f__btn i
@@ -411,4 +413,12 @@ export default {
   background-color: #D8D8D8
 .tabs-a.color-primario .tabs-a__tab__selected
   color: white
+.p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.tarjeta--azul
+  background-color: #F6F6F6
+.p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.tarjeta--azul.acordion__activo
+  background-color: #FFF0C6!important
+.tabs-a.color-primario .tabs-a__tab__selected
+  background-color: #EB6F2D
+.tabs-a.color-primario .tabs-a__tab__selected:before
+  background-color: #EB6F2D
 </style>
