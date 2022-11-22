@@ -425,4 +425,6 @@ export default {
   background-color: #EB6F2D
 .cajon.color-primario
   padding-bottom: 3px!important
+.tabs-a.color-primario .tabs-a__tab:hover
+  color: white!important
 </style>

@@ -39,7 +39,7 @@
       .col-lg-3.mb-3.col-md-6.col-10
         .tarjetas-up
           img(src='@/assets/curso/tema2/img4.png' alt='AvatarTop' style='width:300px')
-          .tarjetas-up_card.bg--2-claro.p-4
+          .tarjetas-up_card.bg--2-claro.p-3
             .title.d-flex.align-items-center.mb-4
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3.mb-4
@@ -50,7 +50,7 @@
       .col-lg-3.mb-3.col-md-6.col-10
         .tarjetas-up
           img(src='@/assets/curso/tema2/img5.png' alt='AvatarTop' style='width:300px')
-          .tarjetas-up_card.bg--2-claro.p-4
+          .tarjetas-up_card.bg--2-claro.p-3
             .title.d-flex.align-items-center.mb-4
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3.mb-4
@@ -61,7 +61,7 @@
       .col-lg-3.mb-3.col-md-6.col-10
         .tarjetas-up
           img(src='@/assets/curso/tema2/img6.png' alt='AvatarTop' style='width:300px')
-          .tarjetas-up_card.bg--2-claro.p-4
+          .tarjetas-up_card.bg--2-claro.p-3
             .title.d-flex.align-items-center.mb-4
               span.c--4
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3.mb-4
@@ -88,8 +88,8 @@
       .row.justify-content-around.align-items-center
         .col-3.col-sm-3.col-lg-3
           img(src="@/assets/curso/tema2/img8.png")
-        .col.mt-5
-          .row.justify-content-between.align-items-center.mt-5
+        .col.mt-5.mtaas
+          .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-1 Tabla 1
               p A continuación le invitamos a profundizar sobre el procedimientos generales de primeros auxilios teniendo encuentra las recomendaciones que encontraras en la siguiente tabla.
@@ -202,10 +202,10 @@ export default {
   background-color: transparent
   background-image: url("../assets/curso/tema2/bg9.png") !important
   background-repeat: no-repeat
-
   background-position-y: 144px
   @media screen and ( max-width: 992px)
     background-color: #FFB338
+
 .pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot
   background-color: white
 .cajon.color-primario
