@@ -49,7 +49,7 @@
       .col-lg-4.mt-5(data-aos="flip-right")
         img(src='@/assets/curso/tema1/img4.svg', alt='Texto que describa la imagen')
       .col-lg-7.mb-5.mt-5
-        p Por ejemplo, el casco el ingreso de la mina o el chaleco al abordar una lancha, el guía no está en la obligación de proporcionarlos, pero en su función de asistencia debe ejercer una vigilancia que se proporcionen, verificar que se da la respectiva explicación de uso y que efectivamente el turista los use.
+        p Por ejemplo, el casco, el ingreso de la mina o el chaleco al abordar una lancha, el guía no está en la obligación de proporcionarlos, pero en su función de asistencia debe ejercer una vigilancia que se proporcionen, verificar que se da la respectiva explicación de uso y que efectivamente el turista los use.
         p Para que el guía pueda determinar quién debe usar los EPP durante el servicio, debe preguntarse: 
         p.text-center.mb-0 <strong>¿Qué personas están expuestas?</strong>
         p.text-center.mb-0 <strong>¿Cuánto tiempo dura la exposición?</strong>
@@ -166,7 +166,7 @@
             figure
               img(src='@/assets/curso/tema1/img12.png', alt='Texto que describa la imagen')
     .cajon.color-primario.p-4.mb-4
-      p En Colombia el turismo de naturaleza tiene un especial protagonismo por las características del país, sin embargo, lo turistas, por lo general, no cuentan con la ropa e indumentaria que requiere un tipo de práctica, y los peligros aumentan proporcionalmente con la altitud, por ejemplo, desencadenando episodios de hipotermia por la exposición prolongada del cuerpo al agua o al viento frío. Por tanto, es importante que el guía de turismo esté en la capacidad de contrarrestar este tipo de situaciones, realizando asertivamente unas recomendaciones previas al servicio y un alistamiento muscular pertinente, esto marcará la diferencia (Peña, et al. 2010).
+      p En Colombia el turismo de naturaleza tiene un especial protagonismo por las características del país, sin embargo, los turistas, por lo general, no cuentan con la ropa e indumentaria que requiere un tipo de práctica, y los peligros aumentan proporcionalmente con la altitud, por ejemplo, desencadenando episodios de hipotermia por la exposición prolongada del cuerpo al agua o al viento frío. Por tanto, es importante que el guía de turismo esté en la capacidad de contrarrestar este tipo de situaciones, realizando asertivamente unas recomendaciones previas al servicio y un alistamiento muscular pertinente, esto marcará la diferencia (Peña, et al. 2010).
     p.mt-5 Cuando el guía es consciente de los elementos para su protección personal, está preparado para continuar con la verificación de los servicios de los proveedores y prestar la asistencia a los usuarios en todos los casos.
     separador
     #t_1_2.titulo-segundo.color-acento-contenido
@@ -357,17 +357,17 @@
     .row.mt-4.justify-content-center
       .col-lg-6
         .row.justify-content-center
-          .col-lg-6.col-6
+          .col-lg-6.col-md-6.col-10
             .row.f2.p-3
               p.mt-4 ¿Ha presentado alguno de los siguientes síntomas en los últimos 15 días? 
-          .col-lg-6.col-6.col-6
+          .col-lg-6.col-md-6.col-10
             .row.f2.p-4
               p.mt-4.mb-4 ¿Pertenece a algún grupo de riesgo?
         .row.mt-2.justify-content-center
-          .col-lg-6.col-6
+          .col-lg-6.col-md-6.col-10
             .row.f2.p-3
               p.mt-4.mb-4 ¿Vive con personas menores de 14 años o mayores de 60 años? 
-          .col-lg-6.col-6.mt-2
+          .col-lg-6.mt-2.col-md-6.col-10
             .row.f2.p-3
               p.mt-4.mb-4 ¿Ha recibido vacuna contra la Covid-19? 
         p.mt-4 Y ahora se solicita carné o esquema completo según sea el caso. 

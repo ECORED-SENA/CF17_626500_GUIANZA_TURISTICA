@@ -35,7 +35,7 @@
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3.mb-4
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3.mb-4
               h4.mb-0.text-center.mb-4 Negligencia por omisión
-            p.text-center  no prestar el auxilio o la asistencia.
+            p.text-center  No prestar el auxilio o la asistencia.
       .col-lg-3.mb-3.col-md-6.col-10
         .tarjetas-up
           img(src='@/assets/curso/tema2/img4.png' alt='AvatarTop' style='width:300px')
@@ -46,7 +46,7 @@
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3.mb-4
               h4.mb-0.text-center.mb-4  Negligencia
             
-            p.text-center  lo que se debe hacer no se hace, o sabiendo lo que no se debe hacer se hace.
+            p.text-center  Lo que se debe hacer no se hace, o sabiendo lo que no se debe hacer se hace.
       .col-lg-3.mb-3.col-md-6.col-10
         .tarjetas-up
           img(src='@/assets/curso/tema2/img5.png' alt='AvatarTop' style='width:300px')
@@ -57,7 +57,7 @@
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3.mb-4
               h4.mb-0.text-center.mb-4  Impericia
             
-            p.text-center   falta de conocimiento o de experiencia para realizar una acción necesaria.
+            p.text-center   Falta de conocimiento o de experiencia para realizar una acción necesaria.
       .col-lg-3.mb-3.col-md-6.col-10
         .tarjetas-up
           img(src='@/assets/curso/tema2/img6.png' alt='AvatarTop' style='width:300px')
@@ -68,7 +68,7 @@
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3.mb-4
               h4.mb-0.text-center.mb-4  Imprudencia
             
-            p.text-center  acciones realizadas sin precaución y sin medir las consecuencias.
+            p.text-center  Acciones realizadas sin precaución y sin medir las consecuencias.
     .cajon.color-primario.p-4.mb-4
       p No es fácil atender una situación de emergencia cuando se tiene la responsabilidad de asistir a los turistas, lo mejor es estar preparado con una muy buena capacitación que tenga simulacros y prácticas y no dejar de estudiar ya que no se sabe en qué momento sean necesarios estos conocimientos.
     separador    
@@ -94,7 +94,7 @@
               h3.mb-1 Tabla 1
               p A continuación le invitamos a profundizar sobre el procedimientos generales de primeros auxilios teniendo encuentra las recomendaciones que encontraras en la siguiente tabla.
             .col-sm-auto.mt-5.mtaz
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexo_Tabla1_Procedimientos generales de primeros auxilios.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexo_Tabla1.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     .row.justify-content-center

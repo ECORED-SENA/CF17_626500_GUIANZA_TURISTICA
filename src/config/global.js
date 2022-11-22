@@ -163,7 +163,7 @@ export default {
       referencia:
         'Organización Internacional del Trabajo - OIT. (2021). Equipos de protección personal. Administración e inspección del trabajo. OIT. ',
       link:
-        'https://www.ilo.org/global/topics/labour-administration-inspection/resources-library/publications/guide-for-labour-inspectors/personal-protective-equip',
+        'https://www.ilo.org/global/topics/labour-administration-inspection/resources-library/publications/guide-for-labour-inspectors/personal-protective-equipment/lang--es/index.htm',
     },
     {
       referencia:

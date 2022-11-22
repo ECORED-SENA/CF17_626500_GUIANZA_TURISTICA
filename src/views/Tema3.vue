@@ -51,7 +51,7 @@
             img(src='@/assets/curso/tema3/img5.png', alt='Texto que describa la imagen')
     p.mt-4 Según el 
       span.colorn <strong>Manual de comunicación en emergencias,</strong> 
-      | dentro de los principales errores que puede cometer el comunicador a la hora cubrir las situaciones de emergencia figuran:
+      |  dentro de los principales errores que puede cometer el comunicador a la hora cubrir las situaciones de emergencia figuran:
     .tarjeta.tarjeta--azul.p-4.mb-5.bg5
       SlyderA(tipo="b")
         .row.justify-content-center
