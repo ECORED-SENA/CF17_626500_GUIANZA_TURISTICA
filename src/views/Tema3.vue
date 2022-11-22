@@ -61,9 +61,9 @@
                 h4 Gestión del riesgo
                 p.mt-4 <strong>Creer que la gestión del riesgo solo hace referencia al tema de desastres.</strong> Un pensamiento común es que solo es importante cubrir emergencias, sucesos de alto impacto o verdaderos dramas sociales. Sin embargo, la gestión del riesgo tiene tres momentos importantes: el conocimiento del riesgo, la reducción del riesgo y el manejo del desastre. 
                 p Todos son igual de importantes.
-                .row.mb-5
-                .row.mb-5
-                .row.mb-5
+                .row.mb-5.fa1
+                .row.mb-5.fa1
+                .row.mb-5.fa1
               .col-lg-1
               .col-lg-7
                 figure
@@ -174,15 +174,13 @@
               .col-lg-7
                 figure
                   img(src='@/assets/curso/tema3/img15.png', alt='Texto que describa la imagen')
-    .row.mt-5.bg88.p-3
-      .row.align-items-center
-        .col-lg-4
-          img(src='@/assets/curso/tema3/img16.svg', alt='Texto que describa la imagen')
-
-        .col-lg-7
-          p.mt-2 Todos los elementos anteriormente mencionados, connotan la gran responsabilidad que tiene el guía-comunicador a la hora de brindar información en situaciones de emergencia. Su mensaje deberá ser de calidad y siguiendo un código de conducta ético para el manejo de la información.
-          p Finalmente, al llevar estas situaciones al sector turismo, un país debería tener la capacidad de asegurar, en un espacio físico determinado, las condiciones necesarias y suficientes para que turistas nacionales y extranjeros, así como las comunidades receptoras, puedan desarrollar actividades turísticas, en un entorno libre de riesgos físicos, materiales y psicológicos, con particular respeto por el entorno ambiental y por las características de cada una de las personas que participan (Ministerio de Turismo de Argentina y Presidencia de la Nación, 2013.)
-          p Pero lograr esto conlleva un gran esfuerzo a nivel interinstitucional de las organizaciones de control territorial, las de medición del clima y, sobre todo, a los entes comunicadores.
+    .row.mt-5.bg88.p-2.align-items-center.justify-content-center
+      .col-lg-4
+        img(src='@/assets/curso/tema3/img16.svg', alt='Texto que describa la imagen')
+      .col-lg-7
+        p.mt-2 Todos los elementos anteriormente mencionados, connotan la gran responsabilidad que tiene el guía-comunicador a la hora de brindar información en situaciones de emergencia. Su mensaje deberá ser de calidad y siguiendo un código de conducta ético para el manejo de la información.
+        p Finalmente, al llevar estas situaciones al sector turismo, un país debería tener la capacidad de asegurar, en un espacio físico determinado, las condiciones necesarias y suficientes para que turistas nacionales y extranjeros, así como las comunidades receptoras, puedan desarrollar actividades turísticas, en un entorno libre de riesgos físicos, materiales y psicológicos, con particular respeto por el entorno ambiental y por las características de cada una de las personas que participan (Ministerio de Turismo de Argentina y Presidencia de la Nación, 2013.)
+        p Pero lograr esto conlleva un gran esfuerzo a nivel interinstitucional de las organizaciones de control territorial, las de medición del clima y, sobre todo, a los entes comunicadores.
     
     
   

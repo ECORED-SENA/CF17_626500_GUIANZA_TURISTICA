@@ -181,10 +181,10 @@
     .row.mt-5.align-items-center
       .col-lg-6
         .row
-          .col-lg-1.col-1
+          .col-lg-1.col-2
             img.widt1(src='@/assets/curso/tema1/f1.svg', alt='Texto que describa la imagen')
-          .col-lg-11.bi1.col-11
-            h4 Asistencia a usuarios según servicios contratados
+          .col-lg-11.col-10
+            h4.mb-0.bi1 Asistencia a usuarios según servicios contratados
     p.mt-3 La logística para una correcta asistencia y guía a los usuarios se verá ajustada según los servicios contratados, por eso ten en cuenta las siguientes recomendaciones:
     .row.justify-content-center.mt-4 
       .col-lg-10
@@ -224,7 +224,7 @@
         p Llamará con anterioridad a la llegada al establecimiento, confirmando la reserva del grupo, lo que minimiza problemas de última hora o posibles equivocaciones, validando número o distribución correcta de camas, alimentación (menús y horarios) y servicios incluidos y no incluidos. Se debe usar la oportunidad para validar la forma más idónea de llegar (direcciones o puntos de referencias) y de ingresar al establecimiento.
         .row
           .col-lg-6
-            .row.p-3.baz
+            .row.p-2.baz
               p En el momento de la llegada al alojamiento tener en cuenta:
               ul.lista-ul--color
                 li.mb-0 
@@ -235,7 +235,7 @@
                   p.mb-0 Solo haga descender a todos los pasajeros en caso de que todos se alojen en el mismo lugar. De lo contrario, a la llegada se debe bajar solo el guía confirmar datos y luego ayudar a descender a los pasajeros que correspondan, el resto del grupo le esperará en el vehículo.
                 li.mb-0 
                   i.fab.fa-telegram
-                  p.mb-0 Mientras, los pasajeros descienden y sacan sus equipajes en el caso de que no haya botones. Luego el guía se presentará en recepción y dará la información del grupo para que se haga el alistamiento para un <i>check-in</i> eficiente.
+                  p.mb-2 Mientras, los pasajeros descienden y sacan sus equipajes en el caso de que no haya botones. Luego el guía se presentará en recepción y dará la información del grupo para que se haga el alistamiento para un <i>check-in</i> eficiente.
           .col-lg-6
             img(src='@/assets/curso/tema1/img18.png', alt='Texto que describa la imagen')
     p.mt-3 En la asistencia del equipaje, el guía y el encargado deben coordinar el transporte, recogida y entrega del equipaje.
@@ -315,7 +315,7 @@
     .row.bg1.align-items-center.mt-3
       .col-lg-4
         img(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
-      .col-lg-8
+      .col-lg-8.mt-3
         p Para que el guía pueda prestar asistencia ante situaciones de emergencia o peligro, es necesario que tenga un entrenamiento de primeros auxilios coherentes con el contexto donde lleve a cabo sus actividades, es decir un guía de montaña requiere un entrenamiento más especializado que un guía de un museo en una ciudad principal. Además de las técnicas determinadas, el guía de turismo debe hacer una planeación de acuerdo con las particularidades de sus usuarios, para esta caracterización la principal herramienta es la ficha médica.
         p Desde la guianza, una ficha médica, es un formato en el que se recolectan los datos sobre el estado de salud de los pasajeros y determinar si cumple con las condiciones para participar del servicio guiado o identificar de los pasajeros que tiene restricciones alimenticias o de ciertas actividades y, por lo tanto, requiere preparar unas actividades alternativas. En este caso es ideal que la ficha médica sea expedida por un profesional de la salud que describa de manera detallada las restricciones del usuario. 
     p.mt-4 La ficha se diligencia antes del empezar el servicio guiado, no en él, durante ni después evitando que, si se tiene un acontecimiento médico, la no apertura de esta se puede calificar legalmente como una negligencia por parte del guía o de la empresa, cuestión que es delicada por las penas pecuniarias y hasta cárcel dependiendo que tan grave sea el caso. 
@@ -354,20 +354,20 @@
           p.mt-4.p-3 ¿Hay alguna información adicional que deban conocer el guía frente a su estado de salud? 
     span.colorn <strong>Nota:</strong> 
     |  a raíz de eventos como la Covid-19 y otro tipo de enfermedades como el dengue, se ha implementado como obligatorio en las actividades turísticas, preguntas como:
-    .row.mt-4
+    .row.mt-4.justify-content-center
       .col-lg-6
         .row.justify-content-center
-          .col-lg-6.col-9
+          .col-lg-6.col-6
             .row.f2.p-3
               p.mt-4 ¿Ha presentado alguno de los siguientes síntomas en los últimos 15 días? 
-          .col-lg-6.col-6.col-9
+          .col-lg-6.col-6.col-6
             .row.f2.p-4
               p.mt-4.mb-4 ¿Pertenece a algún grupo de riesgo?
         .row.mt-2.justify-content-center
-          .col-lg-6.col-9
+          .col-lg-6.col-6
             .row.f2.p-3
               p.mt-4.mb-4 ¿Vive con personas menores de 14 años o mayores de 60 años? 
-          .col-lg-6.col-9.mt-2
+          .col-lg-6.col-6.mt-2
             .row.f2.p-3
               p.mt-4.mb-4 ¿Ha recibido vacuna contra la Covid-19? 
         p.mt-4 Y ahora se solicita carné o esquema completo según sea el caso. 
@@ -421,4 +421,8 @@ export default {
   background-color: #EB6F2D
 .tabs-a.color-primario .tabs-a__tab__selected:before
   background-color: #EB6F2D
+.tabs-a.color-primario .tabs-a__tab:hover, .tabs-a.color-primario .tabs-a__tab:active, .tabs-a.color-primario .tabs-a__tab:focus
+  background-color: #EB6F2D
+.cajon.color-primario
+  padding-bottom: 3px!important
 </style>

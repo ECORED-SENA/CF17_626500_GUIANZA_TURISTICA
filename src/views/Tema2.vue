@@ -32,9 +32,9 @@
           .tarjetas-up_card.bg--2-claro.p-3
             .title.d-flex.align-items-center.mb-4
               span.c--4
-                i.fas.fa-caret-up.fa-2x.color-primario.me-3
-                i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0.text-center.mb-4  Negligencia por omisión
+                i.fas.fa-caret-up.fa-2x.color-primario.me-3.mb-4
+                i.fas.fa-caret-down.fa-2x.color-primario.me-3.mb-4
+              h4.mb-0.text-center.mb-4 Negligencia por omisión
             p.text-center  no prestar el auxilio o la asistencia.
       .col-lg-3.mb-3.col-md-6.col-10
         .tarjetas-up
@@ -42,8 +42,8 @@
           .tarjetas-up_card.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
               span.c--4
-                i.fas.fa-caret-up.fa-2x.color-primario.me-3
-                i.fas.fa-caret-down.fa-2x.color-primario.me-3
+                i.fas.fa-caret-up.fa-2x.color-primario.me-3.mb-4
+                i.fas.fa-caret-down.fa-2x.color-primario.me-3.mb-4
               h4.mb-0.text-center.mb-4  Negligencia
             
             p.text-center  lo que se debe hacer no se hace, o sabiendo lo que no se debe hacer se hace.
@@ -53,8 +53,8 @@
           .tarjetas-up_card.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
               span.c--4
-                i.fas.fa-caret-up.fa-2x.color-primario.me-3
-                i.fas.fa-caret-down.fa-2x.color-primario.me-3
+                i.fas.fa-caret-up.fa-2x.color-primario.me-3.mb-4
+                i.fas.fa-caret-down.fa-2x.color-primario.me-3.mb-4
               h4.mb-0.text-center.mb-4  Impericia
             
             p.text-center   falta de conocimiento o de experiencia para realizar una acción necesaria.
@@ -64,8 +64,8 @@
           .tarjetas-up_card.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
               span.c--4
-                i.fas.fa-caret-up.fa-2x.color-primario.me-3
-                i.fas.fa-caret-down.fa-2x.color-primario.me-3
+                i.fas.fa-caret-up.fa-2x.color-primario.me-3.mb-4
+                i.fas.fa-caret-down.fa-2x.color-primario.me-3.mb-4
               h4.mb-0.text-center.mb-4  Imprudencia
             
             p.text-center  acciones realizadas sin precaución y sin medir las consecuencias.
@@ -89,11 +89,11 @@
         .col-3.col-sm-3.col-lg-3
           img(src="@/assets/curso/tema2/img8.png")
         .col.mt-5
-          .row.justify-content-between.align-items-cente.mt-5
+          .row.justify-content-between.align-items-center.mt-5
             .col.mb-3.mb-sm-0
               h3.mb-1 Tabla 1
               p A continuación le invitamos a profundizar sobre el procedimientos generales de primeros auxilios teniendo encuentra las recomendaciones que encontraras en la siguiente tabla.
-            .col-sm-auto.mt-5
+            .col-sm-auto.mt-5.mtaz
               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexo_Tabla1_Procedimientos generales de primeros auxilios.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
@@ -118,11 +118,11 @@
           p.mb-0 Está directamente relacionada con las emergencias, por antecedentes históricos donde la multitud o una persona al mando actúan desesperada y descontroladamente, ocasiona heridos y en casos más graves. Y esto está relacionado con que todo ser humano ante una situación de peligro real o imaginaria, responde con miedo, es una respuesta biológicamente congénita, nos protege como especie y ha permitido nuestra sobrevivencia. En términos generales sentir miedo es bueno y hasta beneficioso, porque evita que cometamos actos imprudentes, nos permite evaluar la situación de urgencia y nos prepara para la lucha o para la huida. El problema es cuando es desproporcionado y sale fuera de nuestro control nos produce ceguera psicológica es decir nos incapacita para evaluar el peligro en forma real y escoger la mejor alternativa para enfrentarlo o huir de él (s. p.). 
                
       .col-lg-6
-        img(src='@/assets/curso/tema2/img10.png', alt='Texto que describa la imagen')
+        img.fine(src='@/assets/curso/tema2/img10.png', alt='Texto que describa la imagen')
     .row.mt-2
       .col-lg-1
       .col-lg-2
-        img(src='@/assets/curso/tema2/img11.svg', alt='Texto que describa la imagen')
+        img.fine(src='@/assets/curso/tema2/img11.svg', alt='Texto que describa la imagen')
       .col-lg-8
         p Por otro lado, la conducta de pánico provoca la ruptura de las relaciones sociales cooperativas y desemboca en comportamientos de egoísmo y falta de consideración cuando se empuja, se derriba, se pisotea y las salidas quedan obstruidas. 
         p Entre las situaciones propicias para este tipo de situaciones están: lugares públicos atiborrados de personas, salidas pequeñas o pocas vías de evacuación, el contacto unos con otros y poco espacio vital o personal, presentación de un conflicto común sumado a la agresividad.
@@ -208,4 +208,6 @@ export default {
     background-color: #FFB338
 .pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot
   background-color: white
+.cajon.color-primario
+  padding-bottom: 3px!important
 </style>
