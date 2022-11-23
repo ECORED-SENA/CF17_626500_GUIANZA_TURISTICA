@@ -142,12 +142,7 @@ export default {
       referencia:
         'Cabo, N., M. (2004). Asistencia y guía de grupos asistencia y guía de grupos. Paraninfo. ',
     },
-    {
-      referencia:
-        'Comisión Europea y Defensa Civil del Ecuador. (2007). La comunicación social en la gestión del riesgo. OG Diseño Gráfico.',
-      link:
-        'https://dipecholac.net/docs/files/258-la-comunicacion-social-en-la-gestion-de-riesgo.pdf',
-    },
+
     {
       referencia:
         'Hernández, M., Pérez, A., M. D. M., y Barranco, M., A. (2017). Primeros auxilios: MF0272_2 módulo transversal. Editorial CEP, S.L.',
@@ -236,7 +231,7 @@ export default {
       tema: 'Elementos de protección personal del guía y los usuarios',
       referencia: 'Organización Mundial de la Salud. (2006). Sol y salud. ',
       tipo: 'Documento en línea',
-      link: 'https://www.who.int/phe/publications/solaruvflyer2006_es.pdf?ua=1',
+      link: 'http://www.sogiba.org.ar/images/sol.pdf',
     },
     {
       tema: 'Elementos de protección personal del guía y los usuarios',
@@ -251,14 +246,6 @@ export default {
       tipo: 'Documento en línea',
       link:
         'https://repositorio.gestiondelriesgo.gov.co/handle/20.500.11762/26454?show=full',
-    },
-    {
-      tema: 'Plan de comunicación en situaciones de emergencia',
-      referencia:
-        'CISP Ecuador. (2007). La comunicación social en la gestión del riesgo. ',
-      tipo: 'PDF',
-      link:
-        'https://dipecholac.net/docs/files/258-la-comunicacion-social-en-la-gestion-de-riesgo.pdf',
     },
   ],
   creditos: {
